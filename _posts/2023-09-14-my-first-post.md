@@ -26,7 +26,7 @@ published: true
 
 # 📍 최종 목표
 <center><strong><em>기온별 옷차림 추천 웹 사이트 개발</em></strong></center>
-</br>
+
   + HTML, CSS, JavaScript로 기능 구현
   + 사용자가 기온별 추천 옷차림 및 마스크 착용 유무를 한눈에 알아볼 수 있도록 시각화된 UI 구현
   + API를 활용하여 사용자의 지역에 따른 실시간 날씨 정보 업데이트 
@@ -55,7 +55,6 @@ const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q="
 const apiUrl_dust = "http://api.openweathermap.org/data/2.5/air_pollution?"; //lat={lat}&lon={lon}&appid={API key}
 ```
 
-</br>
   q Parameter에 도시 이름을 넣어주면 해당 도시의 Current Weather 정보를 아래와 같은 JSON 형태로 받아온다.
 ```json
 coord	
@@ -94,7 +93,6 @@ name	"Seoul"
 cod	200
 ```
 
-</br>
   받아온 데이터 중 원하는 데이터를 querySelector을 이용해 HTML의 클래스에 반환해준다.
 ```javascript
 async function checkWeather(city){
@@ -112,7 +110,6 @@ async function checkWeather(city){
         document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 ```
 
-</br>
   Current Weather API에서 받아온 해당 위치의 상세 좌표값을 이용해 AirPollution API call을 해서 미세먼지 데이터를 받아온다.
 ```javascript
 lat_ = data.coord.lat;
@@ -121,7 +118,6 @@ lon_ = data.coord.lon;
 const response_dust = await fetch(apiUrl_dust + "lat=" + lat_ + "&lon=" + lon_ + "&appid=" + apiKey);
 ```
 
-</br>
   날씨와 미세먼지 농도에 따라서 화면에 날씨, 우산, 마스크 정보를 출력하는 case를 나누어 주었다. 
 ```javascript
 if(data_dust.list[0].components.pm10 < 20) {
