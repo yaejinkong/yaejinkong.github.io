@@ -245,12 +245,12 @@ function doaction(){
 # 📍 결과 화면 및 설명
 
 결과 페이지는 다음과 같이 두 섹션으로 나누어진다. 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/db67e081-0bd1-449e-8b07-565973c97c45" />{: width="100%", height="80%"}</center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/db67e081-0bd1-449e-8b07-565973c97c45" />{: width="100", height="100"}</center>
 
 
 <center><span style='background-color: #f6f8fa'>오늘의 날씨 정보 섹션</span></center>
 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/6c09a189-0aa3-477d-a428-e62d47e36a7e" />{: width="100%", height="80%"}</center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/6c09a189-0aa3-477d-a428-e62d47e36a7e" />{: width="100", height="100"}</center>
 
 
 <center><span style='background-color: #f6f8fa'>옷차림 추천 섹션</span></center>
