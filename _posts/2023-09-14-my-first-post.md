@@ -25,7 +25,7 @@ published: true
 
 
 # 📍 최종 목표
-  <center>`“기온별 옷차림 추천 웹 사이트 개발”`</center>
+  <center>`“기온별 옷차림 추천 웹 사이트 개발”'</center>
 
   + HTML, CSS, JavaScript로 기능 구현
   + 사용자가 기온별 추천 옷차림 및 마스크 착용 유무를 한눈에 알아볼 수 있도록 시각화된 UI 구현
