@@ -35,7 +35,8 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /_site/assets/img/yaejin.png
+# logo:
+avatar:               /images/yaejin.png
 
 
 # This should be the same author as first entry in `_data/authors.yml`.
@@ -43,7 +44,7 @@ author:
   # Used by `jekyll-feed`:
   name:                <Yaejin> <Kong>
   email:               <0910a@naver.com>
-  picture: /_site/assets/img/yaejin.png
+  picture:            /images/yaejin.png
   social:
     github:             yaejinkong
     email :             0910a@naver.com
