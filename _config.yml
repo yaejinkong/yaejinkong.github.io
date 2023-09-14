@@ -52,7 +52,7 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Projects
+  - title:              Projects
     url:               /projects/
   - title:             Study
     url:               /study/
