@@ -248,18 +248,15 @@ function doaction(){
 ```
 
 
-
 # 📍 결과 화면 및 설명
 
 결과 페이지는 다음과 같이 두 섹션으로 나누어진다. 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/153c55d6-5423-44aa-a297-c7e393634a9a
-" width="700" height="500"></center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/5b7e5776-dbb2-4007-9cff-b931f40346bb" width="700" height="500"></center>
 
 
 <center><span style='background-color: #f6f8fa'>오늘의 날씨 정보 섹션</span></center>
 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/137a25c7-db59-4cdb-a29a-aebb0bf1fa89
-" width="700" height="500"></center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/0e671e2d-5c60-412d-9918-f6cf906159b8" width="700" height="500"></center>
 
 
 <center><span style='background-color: #f6f8fa'>옷차림 추천 섹션</span></center>
