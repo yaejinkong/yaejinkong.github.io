@@ -7,6 +7,12 @@ published: true
 ---
 
 ---
+# 📍 기온별 옷차림 추천 웹 사이트 'wea(the)r'
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/5718a874-ff84-411d-832f-e1dd8393e658" width="700" height="500"></center>
+
+
+<center><span style='background-color: #f6f8fa'>메인 화면</span></center>
+
 # 📍 주제 선정 동기
 
   이번 프로젝트에서는 현재 사람들이 일상생활에서 종종 겪고 있는 문제점을 해결하고자 하는 목적을 가지고 주제를 선정하였다. 최근 기후변화로 인한 일교차의 심화와 미세먼지로 마스크 착용이 필수적인 상황이 늘어나고 있음에, 사람들이 어떤 옷을 입어야 할지 마스크를 착용해야 할지에 대한 고민이 많아졌다. 이에 오늘의 날씨 정보를 기반으로 적절한 옷차림과 마스크 착용 여부를 추천하는 웹 사이트를 구현함으로써 일상생활의 편의성을 높이고 사람들이 건강하고 멋진 삶을 보낼 수 있도록 돕고자 한다.
@@ -242,15 +248,18 @@ function doaction(){
 ```
 
 
+
 # 📍 결과 화면 및 설명
 
 결과 페이지는 다음과 같이 두 섹션으로 나누어진다. 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/db67e081-0bd1-449e-8b07-565973c97c45" width="700" height="500"></center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/153c55d6-5423-44aa-a297-c7e393634a9a
+" width="700" height="500"></center>
 
 
 <center><span style='background-color: #f6f8fa'>오늘의 날씨 정보 섹션</span></center>
 
-<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/6c09a189-0aa3-477d-a428-e62d47e36a7e" width="700" height="500"></center>
+<center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/137a25c7-db59-4cdb-a29a-aebb0bf1fa89
+" width="700" height="500"></center>
 
 
 <center><span style='background-color: #f6f8fa'>옷차림 추천 섹션</span></center>
