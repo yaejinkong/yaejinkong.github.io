@@ -12,7 +12,7 @@ published: true
 <center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/5718a874-ff84-411d-832f-e1dd8393e658" width="700" height="500"></center>
 
 
-<center><span style='background-color: #f6f8fa'>메인 화면</span></center>
+<center><strong><span style='background-color: #f6f8fa'>메인 화면</span></strong></center>
 
 # 📍 주제 선정 동기
 
@@ -253,10 +253,10 @@ function doaction(){
 
   결과 페이지는 다음과 같이 두 섹션으로 나누어진다. 
 <center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/5b7e5776-dbb2-4007-9cff-b931f40346bb" width="700" height="500"></center>
-<center><span style='background-color: #f6f8fa'>오늘의 날씨 정보 섹션</span></center>
+<center><strong><span style='background-color: #f6f8fa'>오늘의 날씨 정보 섹션</span></strong></center>
 <br/><br/>
 <center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/0e671e2d-5c60-412d-9918-f6cf906159b8" width="700" height="500"></center>
-<center><span style='background-color: #f6f8fa'>옷차림 추천 섹션</span></center>
+<center><strong><span style='background-color: #f6f8fa'>옷차림 추천 섹션</span></strong></center>
 <br/><br/>
 
 
