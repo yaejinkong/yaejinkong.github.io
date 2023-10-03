@@ -27,5 +27,5 @@ sitemap: false
 * [OS]{:.heading.flip-title} --- OS
 * [Computer_Architecture]{:.heading.flip-title} --- 컴퓨터 구조
 
-[OS]: /OS/
-[Computer_Architecture]: /Computer_Architecture/
+[OS]: /os/
+[Computer_Architecture]: /computer-architecture/

@@ -1,7 +1,7 @@
 ---
 layout: list
 category: Study
-bigtitle: Computer Architecture
+bigtitle: Computer_Architecture
 description: >
   Computer Architecture
 related_posts:
