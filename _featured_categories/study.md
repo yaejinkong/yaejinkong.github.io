@@ -18,3 +18,13 @@ description: >
 # DON'T USE THIS SETTING IN YOUR CATEGORIES!
 sitemap: false
 ---
+
+# Study 
+
+## Category
+
+* [OS]{:.heading.flip-title} --- OS
+* [Computer_Architecture]{:.heading.flip-title} --- 컴퓨터 구조
+
+[OS]: /OS/
+[Computer_Architecture]: /Computer_Architecture/
