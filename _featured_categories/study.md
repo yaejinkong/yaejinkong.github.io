@@ -26,6 +26,10 @@ sitemap: false
 
 * [OS]{:.heading.flip-title} --- OS
 * [Computer_Architecture]{:.heading.flip-title} --- 컴퓨터 구조
+* [Database]{:.heading.flip-title} --- 데이터베이스
+
 
 [OS]: /os/
 [Computer_Architecture]: /computer-architecture/
+[Database]: /database/
+
