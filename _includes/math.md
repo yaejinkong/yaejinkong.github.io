@@ -10,4 +10,5 @@
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">  
 </script>   
 
-<script> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); </script> 
+<script> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
+</script> 
