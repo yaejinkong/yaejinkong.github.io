@@ -1,4 +1,4 @@
-<script type="text/x-mathjax-config">  
+<!--<script type="text/x-mathjax-config">  
 	MathJax.Hub.Config({  
 	tex2jax: {  
 		inlineMath: [ ['$','$'], ["\\(","\\)"] ],  
@@ -12,3 +12,4 @@
 
 <script> MathJax.Hub.Queue(["Typeset",MathJax.Hub]); 
 </script> 
+-->
