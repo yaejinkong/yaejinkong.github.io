@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[20240115] 패키지, 접근 제어자, 자바 메모리 구조, static, final, 상속"
+title:  "[자바] 패키지, 접근 제어자, 자바 메모리 구조, static, final, 상속"
 date:   2024-01-15 20:43:06 +0900
 categories: 
             - Study
@@ -9,9 +9,7 @@ published: true
 ---
 
 ---
-# '5. 패키지' 
-<br>
-<br>
+# 5. 패키지 
 
 ## 패키지 ?
 - 자바 클래스들을 관련 있는 기능들로 분류하기 위한 디렉토리
@@ -43,9 +41,7 @@ published: true
 <br>
 <br>
 
-# '6. 접근 제어자'
-<br>
-<br>
+# 6. 접근 제어자
 
 ## 접근 제어자의 종류
 - `private` : 모든 외부 호출을 막는다. 같은 클래스 내에서만 접근 가능하다.
@@ -202,9 +198,7 @@ published: true
 <br>
 <br>
 
-# '7. 자바 메모리 구조와 static'
-<br>
-<br>
+# 7. 자바 메모리 구조와 static
 
 ## 자바 메모리 구조
 
@@ -303,7 +297,6 @@ published: true
     - 사용 시 컴파일 오류가 발생한다. 
 - 모든 곳에서 `static`을 호출할 수 있다.
 - 객체 생성의 필요 없이 메서드의 호출만으로 필요한 기능을 수행할 때 주로 사용한다.
-- 
 <br>
 
 ## 멤버 메서드의 종류
@@ -379,11 +372,8 @@ published: true
     }
   }
   ~~~
-<br>
-<br>
-<br>
 
-# '8. final'
+# 8. final
 <br>
 <br>
 
@@ -419,7 +409,7 @@ published: true
 <br>
 
 - `final`을 필드(멤버 변수)에 사용할 경우 해당 필드는 생성자를 통해서 한 번만 초기화될 수 있다.
-- 
+
   ~~~java
   package final1; 
 
@@ -499,6 +489,7 @@ published: true
     }
   }
   ~~~
+
   - 프로그램 최대 참여자 수를 변경해야 하면 `Constant.MAX_USERS`의 상수 값만 변경 하면 된다.
 <br>
 
@@ -527,7 +518,6 @@ published: true
     }
   }
   ~~~
-<br>
 
 ## final 클래스와 메서드
 - final 클래스
@@ -541,9 +531,7 @@ published: true
 <br>
 <br>
 
-# '9. 상속'
-<br>
-<br>
+# 9. 상속
 
 ## 상속 관계
 - 상속 : <span style="background-color: #fff5b1">기존 클래스(부모 클래스)의 필드와 메서드를 새로운 클래스(자식 클래스)가 재사용 하는 것</span>
