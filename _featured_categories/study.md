@@ -27,9 +27,15 @@ sitemap: false
 * [OS]{:.heading.flip-title} --- OS
 * [Computer_Architecture]{:.heading.flip-title} --- 컴퓨터 구조
 * [Database]{:.heading.flip-title} --- 데이터베이스
+* [Webprogramming]{:.heading.flip-title} --- 웹프로그래밍
+* [Java]{:.heading.flip-title} --- 자바
+
 
 
 [OS]: /os/
 [Computer_Architecture]: /computer-architecture/
 [Database]: /database/
+[Webprogramming]: /webprogramming/
+[Java]: /java/
+
 
