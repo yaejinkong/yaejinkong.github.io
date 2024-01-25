@@ -29,6 +29,8 @@ sitemap: false
 * [Database]{:.heading.flip-title} --- 데이터베이스
 * [Webprogramming]{:.heading.flip-title} --- 웹프로그래밍
 * [Java]{:.heading.flip-title} --- 자바
+* [CodingTest]{:.heading.flip-title} --- 코딩테스트
+
 
 
 
@@ -37,5 +39,7 @@ sitemap: false
 [Database]: /database/
 [Webprogramming]: /webprogramming/
 [Java]: /java/
+[CodingTest]: /coding-test/
+
 
 
