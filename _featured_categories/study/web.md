@@ -1,7 +1,7 @@
 ---
 layout: list
 category: Study
-bigtitle: Webprogramming
+bigtitle: Web
 description: >
   웹프로그래밍
 related_posts:
