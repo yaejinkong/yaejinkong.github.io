@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[자바] 래퍼, Class 클래스, 열거형 Enum, 날짜와 시간"
-date:   2024-04-017 20:43:06 +0900
+date:   2024-04-17 20:43:06 +0900
 categories: 
             - Study
             - java
