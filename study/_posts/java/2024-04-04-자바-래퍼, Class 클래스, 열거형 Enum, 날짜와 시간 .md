@@ -10,7 +10,6 @@ published: true
 
 ---
 # 16. 래퍼, Class 클래스
-
 # 17. 열거형 - Enum
 
 # 18. 날짜와 시간
