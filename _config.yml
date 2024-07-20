@@ -19,15 +19,15 @@ url:                   https://yaejinkong.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                Yaejin's velog
+title:                예콩
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Future SW Engineer
+
 
 # A shorter description for the sidebar.
-tagline:               welcome to my dev-blog :)
+tagline:               어서오숑... 나의 불로구...
 
 # A list of keywords for your blog
 keywords:              []
@@ -35,7 +35,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:               /images/yaejin.png
+logo:               /images/sheep.png
 
 
 # This should be the same author as first entry in `_data/authors.yml`.
@@ -43,7 +43,7 @@ author:
   # Used by `jekyll-feed`:
   name:                <Yaejin> <Kong>
   email:               <0910a@naver.com>
-  picture:            /images/yaejin.png
+  picture:            /images/sheep.png
   social:
     github:             yaejinkong
     email :             0910a@naver.com
