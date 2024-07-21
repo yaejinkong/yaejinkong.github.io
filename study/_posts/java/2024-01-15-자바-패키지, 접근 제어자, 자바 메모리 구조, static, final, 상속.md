@@ -7,6 +7,10 @@ categories:
             - java
 tags: [Java]            
 toc: true
+related_posts:
+  - study/_posts/java/2024-01-22-자바-다형성.md
+  - study/_posts/java/2024-04-04-자바-Object, 불변, String.md
+  - study/_posts/java/2024-04-17-자바-래퍼, Class 클래스, 열거형 Enum, 날짜와 시간 .md
 ---
 * this unordered seed list will be replaced by the toc
 {:toc}

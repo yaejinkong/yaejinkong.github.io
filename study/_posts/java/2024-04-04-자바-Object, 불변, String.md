@@ -7,6 +7,10 @@ categories:
             - java
 tags: [Java]            
 toc: true
+related_posts:
+  - study/_posts/java/2024-04-17-자바-래퍼, Class 클래스, 열거형 Enum, 날짜와 시간 .md
+  - study/_posts/java/2024-04-24-자바-중첩클래스, 내부클래스.md
+  - study/_posts/java/2024-04-30-자바-중첩클래스, 내부클래스2.md
 ---
 * this unordered seed list will be replaced by the toc
 {:toc}
