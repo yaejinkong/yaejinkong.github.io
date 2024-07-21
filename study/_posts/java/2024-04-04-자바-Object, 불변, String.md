@@ -5,7 +5,7 @@ date:   2024-04-02 20:43:06 +0900
 categories: 
             - Study
             - java
-published: true
+tags: [Java]            
 toc: true
 ---
 * this unordered seed list will be replaced by the toc

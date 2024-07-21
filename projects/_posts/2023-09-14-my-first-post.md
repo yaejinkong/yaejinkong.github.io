@@ -3,10 +3,9 @@ layout: post
 title:  "[개인 프로젝트] 기온별 옷차림 추천 웹 사이트 'WEA(the)R'"
 date:   2023-09-14 20:43:06 +0900
 categories: Projects
-published: true
+tags: [project]            
 toc: true
 ---
-
 * this unordered seed list will be replaced by the toc
 {:toc}
 
@@ -289,7 +288,5 @@ function doaction(){
   <https://github.com/ByungyeonKim/weather>
   <https://www.youtube.com/watch?v=MIYQR-Ybrn4>
 
-
----
 
 
