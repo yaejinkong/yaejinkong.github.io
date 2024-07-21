@@ -209,13 +209,11 @@ enable_coderay: false
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  # post_addons:         [about, newsletter, related, random, comments]
-    post_addons:         [about]
+  post_addons:         [about, newsletter, related, random, comments]
 
 
   # Configure the order of complementary content on project pages
-  # project_addons:      [about, newsletter, other, comments]
-  project_addons:      [about, newsletter, other]
+  project_addons:      [about, newsletter, other, comments]
 
 
   # Set to `true` if you don't want to show an icon indicating external links

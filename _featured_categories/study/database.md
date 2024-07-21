@@ -7,7 +7,7 @@ description: >
 related_posts:
   -
 addons:
-  # - related
+  - related
 list: true
 order: 3
 ---
