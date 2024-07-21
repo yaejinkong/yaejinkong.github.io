@@ -35,7 +35,7 @@ keywords:              []
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:               /images/sheep.png
+logo:               /assets/img/profile.png
 
 
 # This should be the same author as first entry in `_data/authors.yml`.
@@ -56,16 +56,19 @@ menu:
     url:               /projects/
   - title:             Study
     url:               /study/
+  - title:             About
+    url:                /about/   
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-#legal:
-#  - title:             LICENSE
-#    url:               /LICENSE/
-#  - title:             NOTICE
-#    url:               /NOTICE/
-#  - title:             CHANGELOG
-#    url:               /CHANGELOG/
+legal:
+ - title:             LICENSE
+   url:               /LICENSE/
+ - title:             NOTICE
+   url:               /NOTICE/
+ - title:             CHANGELOG
+   url:               /CHANGELOG/
+
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2021. All rights reserved.
@@ -136,10 +139,12 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type:            posts
+    values:
+      comments:        true
+      # https://applause-button.com/
+      applause_button:       true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:

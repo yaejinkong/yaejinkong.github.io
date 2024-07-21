@@ -8,15 +8,15 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    열심히 끄적끄적
+    부 지 런 하 자
 
   # This photo will be used in the about section
   picture:
-    path:           /images/yaejin.png
+    path:           /assets/img/profile.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /images/yaejin.png
-      2x:            /images/yaejin.png
+      1x:           /assets/img/profile.png
+      2x:           /assets/img/profile.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide

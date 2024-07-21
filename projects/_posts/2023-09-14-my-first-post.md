@@ -4,9 +4,12 @@ title:  "[개인 프로젝트] 기온별 옷차림 추천 웹 사이트 'WEA(the
 date:   2023-09-14 20:43:06 +0900
 categories: Projects
 published: true
+toc: true
 ---
 
----
+* this unordered seed list will be replaced by the toc
+{:toc}
+
 # 📍 기온별 옷차림 추천 웹 사이트 'WEA(the)R'
 
 <center><img src = "https://github.com/yaejinkong/yaejinkong.github.io/assets/127467781/5718a874-ff84-411d-832f-e1dd8393e658" width="700" height="500"></center>

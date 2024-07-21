@@ -6,9 +6,11 @@ categories:
             - Study
             - java
 published: true
+toc: true
 ---
+* this unordered seed list will be replaced by the toc
+{:toc}
 
----
 # 13. Object 
 
 ## java.lang 패키지

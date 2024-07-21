@@ -6,9 +6,11 @@ categories:
             - Study
             - java
 published: true
+toc: true
 ---
+* this unordered seed list will be replaced by the toc
+{:toc}
 
----
 # 16. 래퍼, Class 클래스
 # 17. 열거형 - Enum
 
