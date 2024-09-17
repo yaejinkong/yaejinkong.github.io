@@ -423,7 +423,7 @@ related_posts:
 <br>
 <br>
 
-<blockquote>김영한의 실전 자바 기본편을 참고하였습니다</blockquote>
+<blockquote>김영한의 실전 자바 중급 1편을 참고하였습니다</blockquote>
 
 
 

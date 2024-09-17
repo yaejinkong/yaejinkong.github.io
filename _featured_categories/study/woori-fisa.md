@@ -1,7 +1,7 @@
 ---
 layout: list
 category: Study
-bigtitle: Woori_FISA
+bigtitle: WooriFISA
 description: >
   우리 FISA 회고
 related_posts:
