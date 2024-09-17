@@ -32,7 +32,6 @@ sitemap: false
 * [Spring]{:.heading.flip-title} --- 스프링
 * [Network]{:.heading.flip-title} --- 네트워크
 * [CodingTest]{:.heading.flip-title} --- 코딩테스트
-* [WooriFISA]{:.heading.flip-title} --- 우리 FISA
 
 
 
@@ -47,7 +46,6 @@ sitemap: false
 [Network]: /network/
 [CodingTest]: /coding-test/
 [Spring]: /spring/
-[WooriFISA]: /woori-fisa/
 
 
 
