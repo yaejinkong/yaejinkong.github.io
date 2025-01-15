@@ -1,9 +1,9 @@
 ---
 layout: list
 category: Study
-bigtitle: Coding Test
+bigtitle: Data Structure
 description: >
-  코딩 테스트 준비
+  자료 구조 공부
 related_posts:
 -
 addons:

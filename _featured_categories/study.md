@@ -31,7 +31,8 @@ sitemap: false
 * [Java]{:.heading.flip-title} --- 자바
 * [Spring]{:.heading.flip-title} --- 스프링
 * [Network]{:.heading.flip-title} --- 네트워크
-* [CodingTest]{:.heading.flip-title} --- 코딩테스트
+* [Coding Test]{:.heading.flip-title} --- 코딩테스트
+* [Data Structure]{:.heading.flip-title} --- 코딩테스트
 * [Cloud]{:.heading.flip-title} --- 클라우드
 
 
@@ -46,9 +47,10 @@ sitemap: false
 [Web]: /web/ -->
 [Java]: /java/
 [Network]: /network/
-[CodingTest]: /coding-test/
+[Coding Test]: /coding-test/
 [Spring]: /spring/
 [Cloud]: /cloud/
+[Data Structure]: /data-structure/
 
 
 
