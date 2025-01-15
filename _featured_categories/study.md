@@ -32,7 +32,7 @@ sitemap: false
 * [Spring]{:.heading.flip-title} --- 스프링
 * [Network]{:.heading.flip-title} --- 네트워크
 * [Coding Test]{:.heading.flip-title} --- 코딩테스트
-* [Data Structure]{:.heading.flip-title} --- 코딩테스트
+* [Data Structure]{:.heading.flip-title} --- 자료구조
 * [Cloud]{:.heading.flip-title} --- 클라우드
 
 
