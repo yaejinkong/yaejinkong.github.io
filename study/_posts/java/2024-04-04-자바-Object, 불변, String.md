@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "[자바] Object, 불변, String 클래스"
+title:  "[Java] Object, 불변, String 클래스"
 date:   2024-04-02 20:43:06 +0900
 categories: 
-            - Study
             - java
-tags: [Java]            
+tags:            
 toc: true
 related_posts:
   - study/_posts/java/2024-04-17-자바-래퍼, Class 클래스, 열거형 Enum, 날짜와 시간 .md

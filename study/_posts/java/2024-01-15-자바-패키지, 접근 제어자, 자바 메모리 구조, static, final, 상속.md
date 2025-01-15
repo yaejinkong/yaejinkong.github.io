@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "[자바] 패키지, 접근 제어자, 자바 메모리 구조, static, final, 상속"
+title:  "[Java] 패키지, 접근 제어자, 자바 메모리 구조, static, final, 상속"
 date:   2024-01-15 20:43:06 +0900
 categories: 
-            - Study
             - java
-tags: [Java]            
+tags:            
 toc: true
 related_posts:
   - study/_posts/java/2024-01-22-자바-다형성.md
