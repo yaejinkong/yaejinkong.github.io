@@ -416,14 +416,6 @@ compress_html:
 sass:
   style:               compressed
 
-comments:
-  provider: utterances
-  utterances:
-    repo: yaejinkong/yaejinkong.github.io
-    label: ✨💬Comments✨
-    issue-term: pathname
-    theme: github-light
-
 future: true
 
 # Jekyll Compose Defaults
