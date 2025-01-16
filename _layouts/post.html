@@ -48,28 +48,3 @@ layout: base
   {% else %}
   {% endcase %}
 {% endfor %}
-
----
-layout: base
----
-<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}&count_bg=%231B1C1D&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
-
-{% include_cached components/post.html post=page no_link_title=true no_excerpt=true hide_image=page.hide_image hide_description=page.hide_description %}
-
-
-
-{% assign addons = page.addons | default:site.hydejack.post_addons %}
-{% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
-
-<!-- <script>console.log("{{addons}}"); console.log("{{page.addons}}"); console.log("{{site.hydejack.post_addons}}")</script> -->
-{% for addon in addons %}
-  {% case addon %}
-  {% when 'about' %}
-    {% include_cached components/about.html author=page.author %}
-  {% when 'related' %}
-    {% include components/related-posts.html %}
-  {% when 'comments' %}
-    {% include body/comments.html %}
-  {% else %}
-  {% endcase %}
-{% endfor %}
