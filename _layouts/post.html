@@ -37,14 +37,23 @@ layout: base
 
 {% assign addons = page.addons | default:site.hydejack.post_addons %}
 {% unless addons %}{% assign addons = "about,newsletter,related,random" | split:"," %}{% endunless %}
-{% for addon in addons %}
+\{% for addon in addons %}
   {% case addon %}
   {% when 'about' %}
-     {% include_cached components/about.html author=page.author %}
+    {% include_cached components/about.html author=page.author %}
   {% when 'related' %}
-    {% include if-non-null try="components/related-posts.html" %}
+    {% include components/related-posts.html %}
   {% when 'comments' %}
     {% include body/comments.html %}
   {% else %}
   {% endcase %}
 {% endfor %}
+
+<script src="https://utteranc.es/client.js"
+        repo="yaejinkong/yaejinkong.github.io"
+        label="✨💬Comments✨"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
