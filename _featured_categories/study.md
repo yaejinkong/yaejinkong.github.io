@@ -33,7 +33,7 @@ sitemap: false
 * [Network]{:.heading.flip-title} --- 네트워크
 * [Coding Test]{:.heading.flip-title} --- 코딩테스트
 * [Data Structure]{:.heading.flip-title} --- 자료구조
-* [Cloud]{:.heading.flip-title} --- 클라우드
+* [Linux]{:.heading.flip-title} --- 리눅스
 
 
 
@@ -49,7 +49,7 @@ sitemap: false
 [Network]: /network/
 [Coding Test]: /coding-test/
 [Spring]: /spring/
-[Cloud]: /cloud/
+[Linux]: /linux/
 [Data Structure]: /data-structure/
 
 

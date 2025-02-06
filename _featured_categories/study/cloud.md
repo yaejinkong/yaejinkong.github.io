@@ -1,9 +1,9 @@
 ---
 layout: list
 category: Study
-bigtitle: Cloud
+bigtitle: Linux
 description: >
-  클라우드
+  리눅스
 related_posts:
   -
 addons:
