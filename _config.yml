@@ -19,7 +19,7 @@ url:                   https://yaejinkong.github.io
 lang:                  ko-KR, en-US
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                예콩
+title:                진콩이네 팝콘 가게
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -27,7 +27,7 @@ description:           >
 
 
 # A shorter description for the sidebar.
-tagline:              개발을 티기고.. 티기고...
+tagline:              개발을 계속 튀기고... 튀기고...
 
 # A list of keywords for your blog
 keywords:              []
