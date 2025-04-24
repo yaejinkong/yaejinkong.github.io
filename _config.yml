@@ -27,10 +27,7 @@ description:           >
 
 
 # A shorter description for the sidebar.
-tagline: |
-  팝콘마냥 
-  개발을 
-  튀기고... 튀기고...
+tagline: 팝콘마냥 개발을 튀기고... 튀기고...
 
 # A list of keywords for your blog
 keywords:              []
