@@ -29,6 +29,7 @@ related_posts:
 
 ### 첫 번째 풀이
 
+{% raw %}
 ```java
 import java.util.*;
 
@@ -74,6 +75,7 @@ class Solution {
     }
 }
 ```
+{% endraw %}
 
 - 나머지 연산을 통해 수포자들의 점수를 비교했다.
     
@@ -90,6 +92,7 @@ class Solution {
 
 ### 두 번째 풀이 (Stream 사용)
 
+{% raw %}
 ```java
 import java.util.*;
 
@@ -126,6 +129,7 @@ class Solution {
     }
 }
 ```
+{% endraw %}
 
 - 가장 높은 점수는 **Stream**을 사용해서 쉽게 구할 수 있다.
     
