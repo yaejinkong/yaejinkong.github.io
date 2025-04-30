@@ -145,3 +145,58 @@ class Solution {
 
 - 첫 번째 풀이에서는 **reportMap**의 **Value**로 **ArrayList**를 사용했고, **`ArrayList.contains()`** 를 사용해 선형 탐색을 했기때문에 시간 복잡도가 컸다.
 - **ArrayList**를 대신해서 **HashSet**을 사용하면 **`HashSet.contains()`** 사용 시 시간복잡도가 **O(1)**이 되어 최종 시간복잡도가 **O(N^2)**으로 줄어든다.
+
+
+### 세 번째 풀이
+
+```java
+import java.util.*;
+
+class Solution {
+    public int[] solution(String[] id_list, String[] report, int k) {
+        
+        Map<String, HashSet<String>> reportMap = new HashMap<>();
+        Map<String, Integer> countMap = new HashMap<>();
+        
+        for (String r : report) {
+            String[] reportStr = r.split(" ");
+            if (!reportMap.containsKey(reportStr[1])) {
+                reportMap.put(reportStr[1], new HashSet<>());
+            }
+            reportMap.get(reportStr[1]).add(reportStr[0]);
+        }
+        
+        for (int i = 0; i < id_list.length; i++) {
+            if (reportMap.containsKey(id_list[i])) {
+                HashSet<String> userSet = reportMap.get(id_list[i]);
+                if (userSet.size() >= k) {
+                    Iterator iter = userSet.iterator();
+                    while (iter.hasNext()) {
+                        String name = iter.next().toString();
+                        countMap.put(name, countMap.getOrDefault(name, 0) + 1);
+                    }
+                }
+            }
+        }
+        
+        int[] answer = new int[id_list.length];
+        for (int i = 0; i < id_list.length; i++) {
+            answer[i] = countMap.getOrDefault(id_list[i], 0);
+        }
+                
+        return answer;
+    }
+}
+```
+
+- 책의 풀이를 참고했다.
+- 앞의 풀이와 다른 점은
+    - **`Map<String, HashSet<String>> reportMap` :** key - 신고를 당한 이용자, value - 신고한 이용자의 HashSet
+    - **`Map<String, Integer> countMap`** : key - 이용자, value - 메일을 받는 횟수
+    - reportMap의 value로 HashSet을 사용했기 때문에 따로 report 중복 체크를 해줄 필요가 없어졌다.
+- **reportMap**의 **HashSet**의 크기가 k보다 크거나 같다면 해당 이용자는 신고 횟수를 충족한다는 점을 이용해 해당 **HashSet**을 순회하면서 **countMap**을 완성하였다.
+- 시간복잡도
+    - report를 순회하면서 reportMap 완성 → **O(N)** (N: report 길이)
+    - id_list을 순회하면서 reportMap의 HashSet 찾음, HashSet 순회하면서 countMap 완성 → **O(M^2)** (M: id_list 길이)
+    - id_list 순회하면서 answer 배열 완성 → **O(M)**
+    - 최종 시간복잡도 → **O(N + M^2)**
