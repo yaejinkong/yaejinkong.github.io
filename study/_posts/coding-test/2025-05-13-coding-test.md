@@ -26,6 +26,7 @@ related_posts:
 
 ### 깊이 우선 탐색 순회
 
+{% raw %}
 ```java
 import java.util.*;
 
@@ -98,6 +99,7 @@ class Main {
 
 ### 넓이 우선 탐색 순회
 
+{% raw %}
 ```java
 import java.util.*;
 
