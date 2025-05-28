@@ -26,6 +26,7 @@ graph는 배열로 주어지며 노드의 연결 정보와 가중치가 저장�
 
 ## ☑️ 첫 번째 풀이
 
+{% raw %}
 ```java
 import java.util.*;
 
@@ -95,6 +96,7 @@ class Main {
 
 }
 ```
+{% endraw %}
 
 1. 문제에 필요한 Node 클래스를 먼저 정의한다.
     1. Node 클래스는 목적지(dest), 가중치(cost)를 인자로 가진다.  
@@ -126,6 +128,7 @@ class Main {
 
 ## ☑️ 두 번째 풀이
 
+{% raw %}
 ```java
 import java.util.*;
 
@@ -199,6 +202,7 @@ class Main {
 
 }
 ```
+{% endraw %}
 
 - 방문 여부 저장 배열을 생성하여 사용한다.
     - 방문한 노드이면 탐색하지 않고,
