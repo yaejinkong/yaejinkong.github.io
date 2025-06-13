@@ -27,6 +27,7 @@ related_posts:
 
 ## ☑️ 풀이
 
+{% raw %}
 ```java
 import java.util.*;
 public class Solution44 {
@@ -156,6 +157,7 @@ public class Solution44 {
     }}
 
 ```
+{% endraw %}
 
 - 아래 조건을 만족하면 백트래킹한다.
     1. 해당 행에 넣으려는 숫자 num이 있는지 확인한다.
