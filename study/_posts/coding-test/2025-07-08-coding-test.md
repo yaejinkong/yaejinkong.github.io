@@ -74,7 +74,7 @@ public class Solution46 {
     - width[i] : 특정 열에 퀸이 위치했는지 표시
     - diagonal1 : 오른쪽 위 → 왼쪽 아래로 대각선 방향에서 퀸 중복 체크용 배열 <br>diagonal2 : 왼쪽 위 → 오른쪽 아래로 대각선 방향에서 퀸 중복 체크용 배열
         - diagonal1과 diagonal2는 체스판의 행과 열의 합을 이용하여 대각선을 체크하는 배열이다.
-            <img width="422" alt="image" src="/assets/img/study/image1.png">
+            <img width="350" alt="image" src="/assets/img/study/image1.png">
 
         - (0,0), (3,1)에 퀸이 놓여있는 상태라면, diagonal1[0]과 diagonal[4]는 true이다.<br> 이 때, (2,2)와 (3,1)에 퀸을 놓으려 하면 diagonal1[0]과 diagonal[4]가 true이기 때문에 대각선상에 퀸이 있음을 알 수 있다.
             ![이미지](/assets/img/study/image2.png)
