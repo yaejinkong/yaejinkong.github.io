@@ -31,24 +31,24 @@ public class Solution46 {
     private static int getAns(int y) {
         int ans = 0;
 
-				// 1. 
+		// 1. 
         if (y == N) {
             ans++;
         }
         else {
-			       // 2.
+			// 2.
             for (int i = 0; i < N; i++) {
-		            // 3. 
+		        // 3. 
                 if (width[i] || diagonal1[i + y] || diagonal2[i - y + N]) {
                     continue;
                 }
-								// 4. 
+				// 4. 
                 width[i] = diagonal1[i + y] = diagonal2[i - y + N] = true;
 
-								// 5.
+				// 5.
                 ans += getAns(y + 1);
 								
-								// 6. 
+			    // 6. 
                 width[i] = diagonal1[i + y] = diagonal2[i - y + N] = false;
             }
         }
