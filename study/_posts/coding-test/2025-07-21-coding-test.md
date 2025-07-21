@@ -44,7 +44,7 @@ related_posts:
 
 - n = 5일 경우
     
-    <img alt="image" src="/assets/img/study/image3.png">
+    <img width="350" alt="image" src="/assets/img/study/image3.jpeg">
     
 
 ### 작성한 코드
